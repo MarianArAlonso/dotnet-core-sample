@@ -33,5 +33,5 @@ steps:
     azureSubscription: 'Pase para Azure: patrocinio(4da82eb0-a478-4b2c-8b08-44b6be5ef26b)'
     appType: 'webApp'
     WebAppName: 'WebAppLabMarian'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
 
